@@ -1,0 +1,37 @@
+@media (max-width: 870px) {
+    .main-layout {
+        grid-template-areas:
+            "logo "
+            "search"
+            "player"
+            "vids"
+            "wik";
+    }
+    .main-layout > * {
+        /* margin-inline: auto; */
+    }
+
+    .search-form{
+        height: 2rem;
+    }
+
+    .vid-player-container{
+        margin-inline: auto;
+    }
+
+    .logo{
+        margin-inline: auto;
+    }
+
+}
+
+@media (min-width: 870px) {
+    .main-layout {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 10fr 7fr;
+        grid-template-areas:
+            "logo search"
+            "vids player"
+            "vids wik";
+    }
+}

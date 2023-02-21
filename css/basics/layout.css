@@ -1,0 +1,22 @@
+
+.main-layout{
+    display: grid;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.logo{
+    grid-area: logo;
+}
+.search-form{
+    grid-area: search;
+}
+.vids-list{
+    grid-area: vids;
+}
+.vid-player-container{
+    grid-area: player;
+}
+.wik-list{
+    grid-area: wik;
+}
